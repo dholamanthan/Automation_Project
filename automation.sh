@@ -3,7 +3,6 @@
 name=Manthan
 timestamp=$(date '+%d%m%Y-%H%M%S') 
 s3name=upgrad-manthan
-sudo apt update -y
 sudo apt install apache2 -y
 service apache2 restart
 systemctl enable apache2
